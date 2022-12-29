@@ -1,0 +1,135 @@
+
+
+
+
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,*:after {
+    box-sizing: inherit;
+  }
+
+body {
+    animation-name: bg-Color-Change ;
+ animation-duration: 10s;
+ animation-delay: -2s;
+ animation-iteration-count: infinite;
+}
+@keyframes bg-Color-Change {
+    0% {
+        background-color: rgb(148, 163, 175);
+    }
+    25% {
+        background-color: antiquewhite
+    }
+    50% {
+        background-color: rgb(211, 203, 193)
+    }
+    75% {
+        background-color: rgb(126, 165, 165)
+    }
+    100% {
+        background-color: rgb(171, 169, 173);
+    }
+}
+
+header {
+    border-radius: 10px;
+}
+
+
+
+#title{
+    text-align: center;
+}
+.introduction {
+    max-width: 409px;
+    width: 85%;
+    margin: 0 auto;
+    /* padding: 60px 0; */
+    @font-face {
+      font-family: "MyWebFont";
+      src: url("WebFont.eot");
+      src: url("WebFont.eot?iefix") format("eot"),
+          url("WebFont.woff") format("woff"), url("WebFont.ttf") format("truetype"),
+          url("WebFont.svg#webfont") format("svg");
+      }
+    }
+
+.responsive {
+    /* make image responsive by taking in max and min width */
+    max-width: 85%;
+     text-align: center;
+    /* min-width: 125%; */
+    /* padding-right: 25px; */
+    margin: auto;
+}
+
+.img-container {
+    text-align: center;
+}
+#image-label {
+    /* text-align: center; */
+    font-size: 15px;
+  }
+#img-div {
+    text-align: center;
+    display: block;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+/* #image {
+    height: auto;
+    display: block; */
+    /* margin: auto; */
+    /* display: block; */
+    /* text-align: center; */
+   /* align-items: center;
+    padding: 10px 20px 10px 20px; 
+    max-width: 85%; */
+/* } */
+
+#img-caption {
+    text-align: center; 
+    font-size: 15px;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    margin-right: 19px;
+}
+
+ul {
+padding-right: 40px;
+    margin: 20px 20px 0px 0px;
+}
+li {
+    margin-top: 10px;
+  }
+#his-works {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+#footer {
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+   
